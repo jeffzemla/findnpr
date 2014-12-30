@@ -2,7 +2,7 @@
 <widget id="com.phonegap.findnpr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Find NPR</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Find your local NPR station using geolocation
     </description>
     <author email="jeffzemla@gmail.com" href="http://chil.rice.edu/jzemla">
         Jeffrey C. Zemla
