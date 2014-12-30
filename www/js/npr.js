@@ -12,7 +12,7 @@ function updatenpr(pos) {
         var s=new Array();
         $(data).find("station").each(function(i) {
             s[i] = $(this).find("frequency").text() + " " + $(this).find("band").text() + "??" +
-                       $(this).find("network").text() + ";";
+                       $(this).find("network").text();
         });
         other="";
         for (i=0; i<s.length; i++) {
@@ -27,8 +27,5 @@ function updatenpr(pos) {
 $(document).ready(function() {
     if (navigator.geolocation) {
         navigator.geolocation.watchPosition(updatenpr);
-    } else {
-        $("#main").text("Your browser doesn't support HTML5 Geolocation.");
-    }
-
+    } 
 });
