@@ -1,20 +1,20 @@
 * { padding: 0px; margin: 0px; font-weight: normal; border: 0px; } /* CSS Reset */
 
-html, body { 
-    color: #FFA62F;
-    background-color: #2C3539;
+body { 
+    color: #dF860F;
+    background-color: #0C1519;
     padding-top: 15px;
-    height: 100%;
     text-align: center;
     font-family: Helvetica;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
 #mainstation { 
     font-size: 60pt; 
-    border-left: 15px solid gray;
-    border-right: 15px solid gray;
+    border-left: 15px solid #606060;
+    border-right: 15px solid #606060;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
@@ -22,7 +22,7 @@ html, body {
 #otherstations { font-weight: bold; font-size: 22pt; margin-top: 5px; }
 #updating { color: #ff0000; }
 #stationname {
-    color: #CD7F32;
+    color: #bD8F22;
     font-size: 9pt;
     clear: left;
     display: block;
